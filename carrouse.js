@@ -408,3 +408,11 @@ dinnigRoom.map( item => {
   `
 })
 
+
+const links = document.querySelectorAll('.social-links a')
+
+links.forEach( item => {
+  item.addEventListener('click', ev => {
+    ev.preventDefault()
+  })
+})
